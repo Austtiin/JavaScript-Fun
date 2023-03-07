@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Assignment03.css">
+
+    </head>
+    <body>
+        
+        <button id="CountButton" onclick="Count()">Click This Button to start the counter: <br> <br> <br> </button>
+        
+        
+
+        <div class="slider">
+            <h2>Select a number:<br> 5 - 12 </h2>
+            <input type="range" min="5" max="12" value="6" oninput="rangeValue.innerText = this.value">
+            <p id="rangeValue">6</p>
+        </div>
+            <button id="CalButton" onclick="Count2()">Use slider then Click this buttton to start counter</button>
+            
+            <button id="DisplayButton" onclick="DisplayButton()">Use This Button to Show Arrays</button>
+    
+    
+    </body>
+
+        <script src="JavaScript.js">
+        </script>
+</html>
